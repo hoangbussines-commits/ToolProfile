@@ -1,7 +1,7 @@
-##🪟 ToolProfile - All-in-One Windows Tool
+## 🪟 ToolProfile - All-in-One Windows Tool
 No Installation Required - Just download and run!
 
-##📥 Download & Run
+## 📥 Download & Run
 Download the latest ToolProfile.exe from Releases
 
 Double-click to run (Windows 10/11 64-bit required)
