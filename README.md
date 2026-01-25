@@ -9,14 +9,14 @@ Double-click to run (Windows 10/11 64-bit required)
 First run may take 10-15 seconds (WebView2 initialization)
 
 🎯 What It Does
-🔍 Facebook Profile Scanner
+## 🔍 Facebook Profile Scanner
 Paste any Facebook URL, username, or ID
 
 Get instant profile metadata
 
 Live browser preview
 
-🌐 Modern Browser
+## 🌐 Modern Browser
 Multiple tabs with suspend/resume
 
 Microsoft account integration
@@ -25,7 +25,7 @@ OneDrive sync for bookmarks/history
 
 Link safety checker
 
-⚙️ System Requirements
+## ⚙️ System Requirements
 OS: Windows 10/11 (64-bit)
 
 RAM: 4GB minimum (8GB recommended)
@@ -34,7 +34,7 @@ Storage: 200MB free space
 
 No admin rights required
 
-🚨 Safety Notes
+## 🚨 Safety Notes
 No data collection - Everything stays on your PC
 
 Open-source - Code publicly available
@@ -44,21 +44,21 @@ No internet required for scanning features
 Optional sync via your Microsoft account
 
 ❓ Frequently Asked Questions
-❔ "Windows protected your PC" warning?
+## ❔ "Windows protected your PC" warning?
 Click "More info" → "Run anyway" (App is not code-signed yet)
 
-❔ First run is slow?
+## ❔ First run is slow?
 WebView2 runtime initializes once (~15 seconds), subsequent launches are instant
 
-❔ Where is data stored?
+## ❔ Where is data stored?
 %LOCALAPPDATA%\h2odragonhoang developers\ToolProfile\ (Settings)
 
 AppFolder\WebViewData\ (Browser cache)
 
-❔ How to update?
+## ❔ How to update?
 Download new .exe and replace the old one (settings preserved)
 
-🐛 Reporting Issues
+## 🐛 Reporting Issues
 Found a bug? Create an issue with:
 
 Windows version
