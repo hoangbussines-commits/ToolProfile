@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="ToolProfile/ToolProfile.csproj" />
+  <Project Path="developer/ToolProfile.csproj" />
 </Solution>
+
