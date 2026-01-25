@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PublishTrimmed>false</PublishTrimmed>
+		<ApplicationIcon>Assets\MainApps.ico</ApplicationIcon>
+
+		<PlatformTarget>x64</PlatformTarget>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Assets\MainApps.ico" />
+		<None Remove="Assets\MainMessenger.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CefSharp.WinForms.NETCore" Version="120.0.0" />
+		<PackageReference Include="CefSharp.Common.NETCore" Version="120.0.0" />
+		<PackageReference Include="cef.redist.x64" Version="120.0.0" />
+		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3650.58" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Assets\MainApps.ico">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Assets\MainMessenger.ico" />
+	</ItemGroup>
+</Project>
